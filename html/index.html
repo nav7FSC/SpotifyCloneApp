@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags to define character encoding and viewport settings for responsive design -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Clone</title>
+
+  <!-- Link to external stylesheet for the custom styles -->
   <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Link to Font Awesome icons for the navigation and other icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
+<!-- Sidebar section for logo, navigation links, and policies -->
 <div class="sidebar">
   <div class="logo">
+    <!-- Spotify logo -->
     <a href="#">
       <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
     </a>
   </div>
 
+  <!-- Navigation for Home, Search, and Your Library -->
   <div class="navigation">
     <ul>
       <li>
         <a href="#">
+          <!-- Home icon and label -->
           <span class="fas fa-home"></span>
           <span>Home</span>
         </a>
       </li>
-
       <li>
         <a href="#">
+          <!-- Search icon and label -->
           <span class="fas fa-search"></span>
           <span>Search</span>
         </a>
       </li>
-
       <li>
         <a href="#">
+          <!-- Library icon and label -->
           <span class="fas fa-book"></span>
           <span>Your Library</span>
         </a>
@@ -41,17 +50,19 @@
     </ul>
   </div>
 
+  <!-- Additional navigation for creating playlists and viewing liked songs -->
   <div class="navigation">
     <ul>
       <li>
         <a href="#">
+          <!-- Playlist creation icon and label -->
           <span class="fas fa-plus-square"></span>
           <span>Create Playlist</span>
         </a>
       </li>
-
       <li>
         <a href="#">
+          <!-- Liked songs icon and label -->
           <span class="fas fa-heart"></span>
           <span>Liked Songs</span>
         </a>
@@ -59,6 +70,7 @@
     </ul>
   </div>
 
+  <!-- Footer section for policies like Cookies and Privacy -->
   <div class="policies">
     <ul>
       <li>
@@ -71,46 +83,48 @@
   </div>
 </div>
 
+<!-- Main content container -->
 <div class="main-container">
   <div class="topbar">
+    <!-- Buttons for navigating back and forward -->
     <div class="prev-next-buttons">
       <button type="button" class="fas fa-chevron-left"></button>
       <button type="button" class="fas fa-chevron-right"></button>
     </div>
 
+    <!-- Navbar with Premium, Support, Download, and authentication buttons -->
     <div class="navbar">
       <ul>
-        <li>
-          <a href="#">Premium</a>
-        </li>
-        <li>
-          <a href="#">Support</a>
-        </li>
-        <li>
-          <a href="#">Download</a>
-        </li>
+        <li><a href="#">Premium</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Download</a></li>
         <li class="divider">|</li>
-        <li>
-          <a href="#">Sign Up</a>
-        </li>
+        <li><a href="#">Sign Up</a></li>
       </ul>
       <button type="button">Log In</button>
     </div>
   </div>
 
-  <!-- Playlists Section -->
+  <!-- Section to display Spotify playlists -->
   <div class="spotify-playlists">
     <h2>Spotify Playlists</h2>
 
+    <!-- A list of playlist items -->
     <div class="list">
+      <!-- Individual playlist item -->
       <div class="item">
+        <!-- Playlist cover image -->
         <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
         <div class="play">
+          <!-- Play button icon -->
           <span class="fas fa-play"></span>
         </div>
+        <!-- Playlist title -->
         <h4>Today's Top Hits</h4>
+        <!-- Playlist description -->
         <p>Rema & Selena Gomez are on top of the...</p>
       </div>
+      <!-- Repeat similar structure for other playlists -->
       <div class="item">
         <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
         <div class="play">
@@ -127,15 +141,11 @@
         <h4>Rock Classics</h4>
         <p>Classic rock anthems. Cover: AC/DC</p>
       </div>
-      <!-- Add more items as needed -->
     </div>
   </div>
-
-  <!-- Add more sections as needed -->
 </div>
 
-<script
-        src="https://kit.fontawesome.com/23cecef777.js"
-        crossorigin="anonymous"></script>
+<!-- Script for Font Awesome icons -->
+<script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous"></script>
 </body>
 </html>

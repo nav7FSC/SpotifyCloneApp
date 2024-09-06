@@ -1,15 +1,18 @@
+/* Apply consistent box sizing and remove padding and margin globally */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Set up the overall body styling with dark theme colors */
 body {
     background-color: #121212;
     font-family: 'Montserrat', sans-serif;
     color: #b3b3b3;
 }
 
+/* Sidebar styling for the fixed navigation panel on the left */
 .sidebar {
     position: fixed;
     left: 0;
@@ -20,21 +23,25 @@ body {
     padding: 24px;
 }
 
+/* Style for the Spotify logo inside the sidebar */
 .sidebar .logo img {
     width: 130px;
     display: block;
     margin-bottom: 20px;
 }
 
+/* Style for the navigation menu inside the sidebar */
 .sidebar .navigation ul {
     list-style: none;
     margin-top: 20px;
 }
 
+/* Each list item in the navigation menu */
 .sidebar .navigation ul li {
     padding: 10px 0;
 }
 
+/* Links in the navigation menu with icons */
 .sidebar .navigation ul li a {
     color: #b3b3b3;
     text-decoration: none;
@@ -44,21 +51,25 @@ body {
     align-items: center;
 }
 
+/* Hover effect for the navigation links */
 .sidebar .navigation ul li a:hover {
     color: #fff;
 }
 
+/* Icon size and margin for the navigation items */
 .sidebar .navigation ul li .fas {
     font-size: 20px;
     margin-right: 10px;
 }
 
+/* Footer section for policies like Cookies and Privacy */
 .sidebar .policies {
     position: absolute;
     bottom: 20px;
     left: 24px;
 }
 
+/* Style for the policy links */
 .sidebar .policies ul {
     list-style: none;
 }
@@ -74,16 +85,19 @@ body {
     font-size: 10px;
 }
 
+/* Hover effect for the policy links */
 .sidebar .policies ul li a:hover {
     text-decoration: underline;
 }
 
+/* Main content section on the right */
 .main-container {
     margin-left: 245px;
     margin-bottom: 100px;
     padding-top: 20px;
 }
 
+/* Top navigation bar styling */
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -92,6 +106,7 @@ body {
     align-items: center;
 }
 
+/* Navigation buttons for going back and forward */
 .topbar .prev-next-buttons button {
     color: #7a7a7a;
     cursor: not-allowed;
@@ -104,6 +119,7 @@ body {
     margin-right: 10px;
 }
 
+/* Navbar links styling */
 .topbar .navbar ul {
     list-style: none;
     display: flex;
@@ -120,10 +136,12 @@ body {
     font-size: 14px;
 }
 
+/* Hover effect for the navbar links */
 .topbar .navbar ul li a:hover {
     color: #fff;
 }
 
+/* Style for the login button in the navbar */
 .topbar .navbar button {
     background-color: #fff;
     color: #000;
@@ -135,25 +153,30 @@ body {
     cursor: pointer;
 }
 
+/* Hover effect for the login button */
 .topbar .navbar button:hover {
     background-color: #f2f2f2;
 }
 
+/* Playlist section styling */
 .spotify-playlists {
     padding: 20px 40px;
 }
 
+/* Title styling for the playlist section */
 .spotify-playlists h2 {
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
+/* Layout for playlist items */
 .spotify-playlists .list {
     display: flex;
     gap: 20px;
 }
 
+/* Style for individual playlist items */
 .spotify-playlists .list .item {
     background-color: #181818;
     padding: 15px;
@@ -163,16 +186,19 @@ body {
     transition: background-color 0.3s ease;
 }
 
+/* Hover effect for playlist items */
 .spotify-playlists .list .item:hover {
     background-color: #252525;
 }
 
+/* Styling for playlist cover images */
 .spotify-playlists .list .item img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
 }
 
+/* Play button styling inside playlist items */
 .spotify-playlists .list .item .play {
     position: relative;
 }
@@ -188,11 +214,13 @@ body {
     color: white;
 }
 
+/* Title styling for playlist items */
 .spotify-playlists .list .item h4 {
     font-size: 16px;
     color: #fff;
 }
 
+/* Description styling for playlist items */
 .spotify-playlists .list .item p {
     font-size: 12px;
     color: #b3b3b3;
