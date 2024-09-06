@@ -6,6 +6,7 @@ This project is a **Spotify Clone** built using HTML, CSS, and Font Awesome. It 
 
 - **Sidebar Navigation**:
     - Home, Search, and Your Library
+    - Home, Search, and Your Library
     - Create Playlist, Liked Songs
     - Links to Cookies and Privacy policies
 
